@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family:fantasy;}
+body{font-size: 100%;
+	background: #0300E1;}
+h1{	width: all;
+   	text-align:center;
+   	text-align:bottom;
+   	margin: 50px;
+   	color: white; }
+
+@media (min-width:992px){
+.chicken,.beef,.sushi{float: left;border: 5px solid #000000;margin:1.6%;text-align:justify;background: #FFFFFF;}
+#p1 {background-color: #C6C7E4;position:relative;left:70%; width:30% ;border: 5px solid #000000;}
+#p2 {background-color: #C6C7E4;position:relative;left:70%;width:30% ;border: 5px solid #000000; }
+#p3 {background-color: #C6C7E4;position:relative;left:70%; width:30% ;border: 5px solid #000000;}
+.chicken { 	color: #0300E1 ;width:30%; }
+.beef { color: #0300E1 ; width:30%;}
+.sushi { color: #0300E1 ; width:30%;}
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+.chicken,.beef,.sushi{position:relative;float: left;border: 5px solid #000000;margin:1.6%;text-align:justify;background: #FFFFFF;}
+#p1 {background-color:#C6C7E4;position:relative;left:70%; width:30% ;border: 5px solid #000000;}
+#p2 {background-color: #C6C7E4;position:relative;left:70%;width:30% ;border: 5px solid #000000; }
+#p3 {background-color: #C6C7E4;position:relative;left:86%;width:14% ;border: 5px solid #000000;}
+.chicken { 	color: #0300E1 ;width:46%; }
+.beef { color: #0300E1 ; width:46%;}
+.sushi { color: #0300E1 ; width:95%;}
+}
+
+@media (max-width:767px){
+.chicken,.beef,.sushi{position:relative;float: left;border: 5px solid #000000;margin:1.6%;text-align:justify;background: #FFFFFF;}
+#p1 {background-color: #C6C7E4;position:relative;left:70%;width:30% ;border: 5px solid #000000;}
+#p2 {background-color: #C6C7E4;position:relative;left:70%; width:30% ;border: 5px solid #000000; }
+#p3 {background-color: #C6C7E4;position:relative;left:70%; width:30% ;border: 5px solid #000000;}
+.chicken { 	color: #0300E1 ;width:95%; }
+.beef { color: #0300E1 ; width:95%;}
+.sushi { color: #0300E1 ; width:95%;}
+}
+}
